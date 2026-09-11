@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07090d" />
+    <title>Fallen Kingdoms</title>
+  </head>
+  <body>
+    <div id="game"></div>
+    <div id="hud" class="hud hidden">
+      <div class="topbar">
+        <div class="brand">FALLEN KINGDOMS</div>
+        <div class="region">THE LOST VALLEY</div>
+      </div>
+      <div class="quest"><span>MAIN QUEST</span><strong id="questTitle">Echoes of the Fallen</strong><small id="questObjective">Reach the ruined watchtower</small></div>
+      <div class="crosshair">+</div>
+      <div class="bottom">
+        <div class="health"><div class="label">VITALITY</div><div class="bar"><i id="healthFill"></i></div></div>
+        <div class="controls">WASD MOVE &nbsp; SHIFT SPRINT &nbsp; SPACE JUMP &nbsp; LMB ATTACK &nbsp; RMB GUARD &nbsp; E INTERACT</div>
+        <div class="time"><span id="timeText">06:40</span><small>DAWN</small></div>
+      </div>
+      <div id="toast" class="toast"></div>
+    </div>
+    <div id="title" class="title-screen">
+      <div class="grain"></div>
+      <div class="title-copy">
+        <p class="eyebrow">AN ORIGINAL WEBGPU ADVENTURE</p>
+        <h1>FALLEN<br /><em>KINGDOMS</em></h1>
+        <p class="tagline">The kingdom remembers what men forgot.</p>
+        <button id="startButton">ENTER THE KINGDOM</button>
+        <div class="hint">WEBGPU EXPERIENCE / DESKTOP RECOMMENDED</div>
+      </div>
+      <div class="title-art"><div class="moon"></div><div class="mountain m1"></div><div class="mountain m2"></div><div class="mist"></div></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,6 +1,6 @@
 {
   "name": "fallen-kingdoms",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "three": "^0.179.1"
+    "three": "^0.186.0"
   },
   "devDependencies": {
     "vite": "^7.1.4"
